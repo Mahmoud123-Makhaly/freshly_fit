@@ -1,0 +1,34 @@
+.nav-pills {
+  .nav-link {
+    color: black;
+    &.active {
+      background-color: #f0f7ed;
+      color: black;
+    }
+  }
+}
+
+[data-layout-dir='rtl'] {
+  .v-tab-title {
+    position: relative;
+    &::after {
+      position: absolute;
+      left: 0;
+      color: rgba($color: #000000, $alpha: 0.3);
+      content: '\f053';
+      font-family: 'FontAwesome';
+    }
+  }
+}
+[data-layout-dir='ltr'] {
+  .v-tab-title {
+    position: relative;
+    &::after {
+      position: absolute;
+      right: 0;
+      color: rgba($color: #000000, $alpha: 0.3);
+      content: '\f054';
+      font-family: 'FontAwesome';
+    }
+  }
+}

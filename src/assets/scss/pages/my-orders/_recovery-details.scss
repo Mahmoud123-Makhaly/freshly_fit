@@ -1,0 +1,94 @@
+.recovery-details {
+  .recovery-details-title {
+    font-weight: 700;
+    background-color: #f7f7f7;
+    padding: 26px 24px;
+    margin: 0;
+    margin-bottom: 42px;
+  }
+
+  .calendar {
+    .calendar-day {
+      margin-bottom: 0;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #e1e1e1;
+    }
+    .caelndar-time {
+      .select-day {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+      }
+    }
+    .calendar-btn {
+      border-color: #e3e3e3;
+      margin-inline-end: 1rem;
+      background-color: #fff;
+
+      .date {
+        margin-bottom: 0.5rem;
+      }
+      &.active {
+        background-color: $primary !important;
+        .date-text {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+  .shippment-details {
+    border: 1px solid #e1e1e1;
+    .shippment-title {
+      font-size: 16px;
+      color: $info;
+      font-weight: 700;
+      background: #f7f7f7;
+      padding: 1.5rem;
+    }
+    .shippment-info {
+      padding: 1.5rem;
+    }
+  }
+  .order-summary {
+    border: 1px solid #e1e1e1;
+    .order-summary-title {
+      padding: 24px;
+      background: #f7f7f7;
+      .pill {
+        color: $info;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .badge {
+        padding: 0;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 8px 10px;
+      }
+    }
+    .order-summary-info {
+      padding: 24px 20px 0;
+      .cart-summary {
+        .card-title {
+          margin-bottom: 16px;
+        }
+        tr {
+          td {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .cart-summary {
+    .card {
+      border: 0;
+    }
+    .card-title {
+      margin: 0 !important;
+    }
+  }
+  .recovery-confirm {
+    margin-bottom: 4.5rem;
+  }
+}

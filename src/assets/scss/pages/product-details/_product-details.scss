@@ -1,0 +1,105 @@
+.product-details {
+  .product-rate {
+    .p-rating-item-active,
+    .p-rating-item {
+      width: 14px !important;
+      height: 14px !important;
+    }
+  }
+
+  .add-to-cart {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .accordion-body {
+    padding: 0;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    border: 0;
+    outline: 0;
+  }
+
+  .delivery-time {
+    background: rgb(240, 241, 243);
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .properties {
+    .properties-text {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+
+  .swiper-button-prev {
+
+    &::after {
+      color: $gray;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-inline-end: 2% !important;
+
+    &::after {
+      color: $gray;
+    }
+  }
+
+  .heart-icon {
+    font-size: 27px;
+    padding: 9px;
+  }
+
+  .benfits-list {
+    list-style-type: disc;
+  }
+
+  .subProduct-table {
+    tr {
+      td {
+        color: $text-color;
+      }
+    }
+  }
+
+  .p-details-accordion {
+    button {
+      font-weight: 700;
+    }
+  }
+  .rating-count {
+    font-size: 10px;
+    color: #434343;
+  }
+  .button-maker {
+    font-weight: 700;
+  }
+}
+
+@include for-tablet {
+  .properties {
+    .properties-text {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .product-price {
+    font-size: 22px;
+  }
+
+  .product-details {
+    .product-name {
+      font-size: 22px;
+      font-weight: 700;
+      padding-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.product-list {
+  .view-mode {
+    img {
+      vertical-align: sub;
+    }
+  }
+
+  .fa-border-all,
+  .fa-list {
+    border: 1px solid $border;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .fa-filter {
+    position: relative;
+    bottom: 1.8em;
+  }
+
+  .vCard {
+    .button-maker {
+      font-weight: 700;
+    }
+  }
+}
+
+[data-layout-dir='ltr'] {
+  .breadcrumb {
+    .fa-angle-left::before {
+      content: '\f054';
+    }
+  }
+}
+

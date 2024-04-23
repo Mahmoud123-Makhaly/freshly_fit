@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  freshly-fit-website-env-staging:
+    build:
+      context: ../../
+      dockerfile: docker/staging/Dockerfile
+    image: freshly-fit-website-env-staging
+    env_file:
+      - ../../.env.staging
+    ports:
+      - ${FRESHLY_FIT_WEBSITE_STAGING_EXPOSED_PORT}:8091

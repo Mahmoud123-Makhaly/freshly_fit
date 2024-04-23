@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  freshly-fit-website-env-production:
+    build:
+      context: ../../
+      dockerfile: docker/production/Dockerfile
+    image: freshly-fit-website-env-production
+    env_file:
+      - ../../.env.production
+    ports:
+      - ${FRESHLY_FIT_WEBSITE_PRODUCTION_EXPOSED_PORT}:8091

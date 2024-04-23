@@ -1,0 +1,21 @@
+.best-seller {
+  .vCard {
+    .card-title {
+      color: #231c17;
+    }
+    .card-text {
+      color: #231c17;
+      font-size: 12px;
+    }
+  }
+  .button-maker {
+    font-weight: 700;
+  }
+}
+@include for-tablet {
+  .best-seller {
+    .header {
+      font-size: 18px;
+    }
+  }
+}

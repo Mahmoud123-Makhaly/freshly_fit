@@ -1,0 +1,58 @@
+.home-banner {
+  padding: 0;
+  position: relative;
+
+
+  .main-content {
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    transform: translateY(50%);
+    width: 412px;
+    max-width: 47.4%;
+
+    h1 {
+      padding: 0;
+      margin-bottom: 0;
+      margin-bottom: 22px;
+    }
+
+    p {
+      font-size: 16px;
+      padding: 0;
+    }
+  }
+}
+
+[data-layout-dir='ltr'] {
+  .home-banner {
+    .main-content {
+      right: 0;
+      left: 10%
+    }
+
+    img {
+      transform: scaleX(-1);
+    }
+  }
+
+}
+
+@include for-tablet {
+  .home-banner {
+    img {
+      min-height: 194px;
+    }
+
+    .main-content {
+      h1 {
+        font-size: 20px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.recipe-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5rem;
+  background-color: rgba(#A5E87E, 0.1);
+}
+
+@include for-phone {
+  .recipe-content {
+    padding: 0 12px;
+  }
+}

@@ -1,0 +1,47 @@
+
+.checkout{
+  .coupon-btn {
+
+    font-size: 0.75rem !important;
+  }
+.promo-input{
+ height: 52px;
+&:focus-visible{
+  outline: 0;
+}
+}
+.apply-btn{
+  padding: 14px 27px;
+}
+.checkout-btn{
+  padding: 10px 0 ;
+}
+.breadcrumb{
+  
+  .breadcrumb-item{
+    font-size: 14px;
+  }
+}
+
+  .box {
+    margin-bottom: 3.5rem;
+  }
+
+  .address-option {
+    opacity: 0;
+  }
+
+  .address-type {
+    button {
+      &.active {
+        color: white;
+      }
+    }
+  }
+.edit-btn{
+  .icon{
+    font-size: 13px;
+ }
+
+}
+}

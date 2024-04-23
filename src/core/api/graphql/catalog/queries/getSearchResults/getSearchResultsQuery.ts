@@ -1,0 +1,116 @@
+import gql from 'graphql-tag'
+
+const GET_SEARCH_RESULTS = gql`
+query GetSearchResults(
+  $storeId: String!
+  $userId: String!
+  $currencyCode: String!
+  $cultureName: String
+  $query: String!
+  $filter: String
+  $withProducts: Boolean!
+  $withCategories: Boolean!
+  $withPages: Boolean!
+  $withSuggestions: Boolean!
+  $productsAfter: String
+  $productsFirst: Int
+  $productsSort: String
+  $productsFuzzy: Boolean
+  $productsFuzzyLevel: Int
+  $categoriesAfter: String
+  $categoriesFirst: Int
+  $categoriesSort: String
+  $categoriesFuzzy: Boolean
+  $categoriesFuzzyLevel: Int
+  $pagesFirst: Int
+  $pagesAfter: String
+  $suggestionsSize: Int
+) {
+  productSuggestions(storeId: $storeId, query: $query, size: $suggestionsSize) @include(if: $withSuggestions) {
+    suggestions
+  }
+
+  pages(storeId: $storeId, keyword: $query, cultureName: $cultureName, first: $pagesFirst, after: $pagesAfter)
+    @include(if: $withPages) {
+    totalCount
+    items {
+      name
+      relativeUrl
+    }
+  }
+
+  categories(
+    storeId: $storeId
+    userId: $userId
+    currencyCode: $currencyCode
+    cultureName: $cultureName
+    query: $query
+    filter: $filter
+    after: $categoriesAfter
+    first: $categoriesFirst
+    sort: $categoriesSort
+    fuzzy: $categoriesFuzzy
+    fuzzyLevel: $categoriesFuzzyLevel
+  ) @include(if: $withCategories) {
+    totalCount
+    items {
+      id
+      name
+      slug
+      seoInfo {
+        semanticUrl
+      }
+    }
+  }
+
+  products(
+    storeId: $storeId
+    userId: $userId
+    currencyCode: $currencyCode
+    cultureName: $cultureName
+    query: $query
+    filter: $filter
+    after: $productsAfter
+    first: $productsFirst
+    sort: $productsSort
+    fuzzy: $productsFuzzy
+    fuzzyLevel: $productsFuzzyLevel
+  ) @include(if: $withProducts) {
+    totalCount
+    items {
+      id
+      name
+      code
+      slug
+      imgSrc
+      vendor {
+        id
+        name
+      }
+      availabilityData {
+        availableQuantity
+      }
+      price {
+        actual {
+          amount
+          formattedAmount
+        }
+        list {
+          amount
+          formattedAmount
+        }
+        sale {
+          amount
+          formattedAmount
+        }
+        discountAmount {
+          amount
+          formattedAmount
+        }
+      }
+    }
+  }
+}
+`
+
+export default GET_SEARCH_RESULTS

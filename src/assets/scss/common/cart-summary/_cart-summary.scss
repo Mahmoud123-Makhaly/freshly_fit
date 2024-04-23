@@ -1,0 +1,50 @@
+.cart-summary {
+  h6 {
+    font-size: 0.875rem;
+  }
+
+  table {
+    tr:nth-child(2) {
+      border-bottom: 1px solid #E1E1E1;
+    }
+
+    td {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+  }
+
+
+}
+
+.term-condition {
+  font-size: 1rem;
+  line-height: 1rem;
+}
+
+[data-layout-dir="rtl"] {
+  .checkout-btn {
+    position: relative;
+
+    &::after {
+      margin-right: 8px;
+      content: "\f053";
+      font-family: "FontAwesome";
+      font-size: 14px;
+    }
+  }
+}
+
+[data-layout-dir="ltr"] {
+  .checkout-btn {
+    position: relative;
+
+    &::after {
+      margin-left: 8px;
+      content: "\f054";
+      font-family: "FontAwesome";
+      font-size: 14px;
+    }
+  }
+}

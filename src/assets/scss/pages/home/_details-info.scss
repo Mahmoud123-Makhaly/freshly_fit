@@ -1,0 +1,71 @@
+.tortela-desc {
+  .desc-part,
+  .image-part {
+    width: 50%;
+  }
+
+  .desc-part {
+    border-inline-end: 1px solid white;
+  }
+
+  @include for-tablet {
+    padding: 24px 12px;
+
+    .desc-part,
+    .image-part {
+      width: 100%;
+      padding-bottom: 1rem;
+    }
+
+    .desc-part {
+      border-inline-end: 0;
+      border-bottom: 1px solid white;
+    }
+
+    .image-part {
+      padding-top: 1rem;
+    }
+  }
+  .properties {
+    .properties-text {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
+
+.figure {
+  margin-top: 1rem;
+}
+
+.better-health {
+  @include for-tablet {
+    margin-bottom: 20px;
+  }
+}
+.details-info {
+  .healthy-title {
+    font-size: 44px;
+  }
+}
+@include for-tablet {
+  .details-info {
+    .healthy-title {
+      font-size: 24px;
+    }
+    .natural-products {
+      font-size: 20px;
+    }
+    .product-description {
+      font-size: 16px;
+    }
+  }
+  .tortela-desc {
+    .properties {
+      align-items: center;
+      .properties-text {
+        line-height: 16px;
+      }
+    }
+  }
+}

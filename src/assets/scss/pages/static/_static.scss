@@ -1,0 +1,20 @@
+.static-title {
+  background-color: $vlight-gray;
+  margin-top: 28px;
+  margin-bottom: 32px;
+  padding: 24px;
+  border-radius: 4px;
+}
+
+.faq {
+  .product-details-accordion {
+    .accordion-button {
+      font-weight: 700;
+
+      &:not(.collapsed) {
+        background-color: transparent;
+        box-shadow: none;
+      }
+    }
+  }
+}

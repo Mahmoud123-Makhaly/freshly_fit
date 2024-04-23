@@ -1,0 +1,12 @@
+.address-type-label {
+  border: 1px solid $primary !important;
+  cursor: pointer;
+  color: $primary;
+
+  &:active,
+  &:hover,
+  &.active {
+    background-color: $primary !important;
+    color: white !important;
+  }
+}

@@ -1,0 +1,78 @@
+//variables
+$primary: #65af4c;
+$secondary: #006c3c;
+$danger: #d92d20;
+$info: #292e35;
+$text-color: #626262;
+$gray: #667085;
+$border: #d0d5dd;
+$light: rgba(101, 175, 76, 0.1);
+$light-gray: #8c8c8c;
+$vlight-gray: rgba(217, 217, 217, 0.2);
+
+//theme-text-variables
+$primary-text-emphasis: shade-color($primary, 60%);
+$secondary-text-emphasis: shade-color($secondary, 60%);
+$info-text-emphasis: shade-color($info, 60%);
+$danger-text-emphasis: shade-color($danger, 60%);
+
+//theme-bg-subtle-variables
+$primary-bg-subtle: tint-color($primary, 80%);
+$secondary-bg-subtle: tint-color($secondary, 80%);
+$info-bg-subtle: tint-color($info, 80%);
+$danger-bg-subtle: tint-color($danger, 80%);
+
+//theme-border-subtle-variables
+$primary-border-subtle: tint-color($primary, 60%);
+$secondary-border-subtle: tint-color($secondary, 60%);
+$info-border-subtle: tint-color($info, 60%);
+$danger-border-subtle: tint-color($danger, 60%);
+
+$theme-colors: (
+  'primary': $primary,
+  'secondary': $secondary,
+  'danger': $danger,
+  'info': $info,
+  'border': $border,
+  'light': $light,
+  'gray': $gray,
+  'light-gray': $light-gray,
+  'vlight-gray': $vlight-gray,
+);
+
+$colors: ();
+
+$grays: ();
+$blues: ();
+$indigos: ();
+$purples: ();
+$pinks: ();
+$reds: ();
+$oranges: ();
+$yellows: ();
+$greens: ();
+$teals: ();
+$cyans: ();
+
+$theme-colors-text: (
+  'primary': $primary-text-emphasis,
+  'secondary': $secondary-text-emphasis,
+  'info': $info-text-emphasis,
+  'danger': $danger-text-emphasis,
+);
+
+$theme-colors-bg-subtle: (
+  'primary': $primary-bg-subtle,
+  'secondary': $secondary-bg-subtle,
+  'info': $info-bg-subtle,
+  'danger': $danger-bg-subtle,
+);
+
+$theme-colors-border-subtle: (
+  'primary': $primary-border-subtle,
+  'secondary': $secondary-border-subtle,
+  'info': $info-border-subtle,
+  'danger': $danger-border-subtle,
+);
+
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, '$value');

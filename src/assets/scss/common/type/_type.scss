@@ -1,0 +1,13 @@
+@for $i from 1 through 250 {
+  .width-#{$i} {
+    width: #{$i}px;
+  }
+
+  .height-#{$i} {
+    height: #{$i}px;
+  }
+
+  .font-#{$i} {
+    font-size: #{$i}px;
+  }
+}

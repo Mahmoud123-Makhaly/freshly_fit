@@ -1,0 +1,109 @@
+.return-invoice {
+  .invoice-title {
+    padding: 0;
+    margin: 0;
+    padding: 1rem 1.813rem;
+  }
+  .return-message {
+    line-height: 27px;
+    max-width: 470px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .order-info {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 16px;
+    .order-info-title {
+      padding: 24px;
+      background-color: #f7f7f7;
+      padding: 24px;
+      .order-number {
+        font-weight: 700;
+      }
+      .button-maker {
+        padding: 0;
+        font-size: 14px;
+        padding: 8px 16px;
+      }
+    }
+
+    .order-info-info {
+      .preparing-title {
+        padding-bottom: 16px;
+        border-bottom: 1px solid #e1e1e1;
+        .button-maker {
+          font-size: 14px;
+          font-weight: 700;
+          padding: 0;
+          padding: 8px 10px;
+        }
+        .cancel-order {
+          img {
+            width: auto;
+            margin-inline-end: 9px;
+          }
+        }
+      }
+      .card {
+        margin-top: 0 !important;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .shippment-details {
+    border: 1px solid #e1e1e1;
+    .shippment-title {
+      font-size: 16px;
+      color: $info;
+      font-weight: 700;
+      background: #f7f7f7;
+      padding: 1.5rem;
+    }
+    .shippment-info {
+      padding: 1.5rem;
+    }
+  }
+  .order-summary {
+    border: 1px solid #e1e1e1;
+    margin-bottom: 4.5rem;
+    .order-summary-title {
+      padding: 24px;
+      background: #f7f7f7;
+      .pill {
+        color: $info;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .badge {
+        padding: 0;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 8px 10px;
+      }
+    }
+    .order-summary-info {
+      padding: 24px 20px 0;
+      .cart-summary {
+        .card-title {
+          margin-bottom: 16px;
+        }
+        tr {
+          td {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .cart-summary {
+    .card {
+      border: 0;
+    }
+    .card-title {
+      margin: 0 !important;
+    }
+  }
+}

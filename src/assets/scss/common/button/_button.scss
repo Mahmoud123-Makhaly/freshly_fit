@@ -1,0 +1,89 @@
+.button-maker {
+  @include button-variant($primary, $primary, white, $primary);
+  font-family: 'Almarai-Regualr' !important;
+  text-wrap: nowrap;
+  cursor: pointer;
+  font-size: 16px;
+  height: 47px !important;
+
+  &:disabled {
+    background-color: #667085 !important;
+    color: white;
+  }
+
+  &:active,
+  &:hover {
+    @include button-variant($secondary, $secondary, white, $secondary);
+
+    i {
+      color: initial;
+    }
+  }
+
+  &.btn-outline-primary {
+    background-color: white !important;
+    color: $primary !important;
+
+    &:active,
+    &:hover {
+      background-color: $secondary !important;
+      color: white !important;
+    }
+  }
+}
+.button-maker.favorite {
+  @include button-variant($primary, $primary, white, $primary);
+  cursor: pointer;
+  width: 47px;
+  height: 47px;
+  padding: 0 !important;
+  font-size: 16px !important;
+
+  &:disabled {
+    background-color: #667085 !important;
+    color: white;
+  }
+
+  &.btn-outline-primary {
+    background-color: white !important;
+    color: $primary !important;
+
+    &:active,
+    &:hover {
+      background-color: $secondary !important;
+      color: white !important;
+      i {
+        color: white !important;
+      }
+    }
+  }
+}
+
+.button-maker.circled-btn {
+  @include button-variant($primary, $primary, white, $primary);
+  cursor: pointer;
+  width: 47px;
+  height: 47px;
+  padding: 0;
+
+  &:disabled {
+    background-color: #667085 !important;
+    color: white;
+  }
+
+  &.btn-outline-primary {
+    background-color: white !important;
+    color: $primary !important;
+
+    &:active,
+    &:hover {
+      background-color: $secondary !important;
+      color: white !important;
+      i {
+        color: white !important;
+      }
+    }
+  }
+
+  font-size: 16px;
+}

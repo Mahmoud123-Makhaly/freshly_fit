@@ -1,0 +1,47 @@
+.static-page {
+  .empty-cart-image {
+    width: 429px;
+    height: 392px;
+  }
+
+  .empty-wishlist-image {
+    width: 434.32px;
+    height: 425.48px;
+  }
+
+  h2 {
+    color: $info;
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+}
+
+@include for-large-phones {
+  .static-page {
+    .empty-cart-image {
+      width: 235px;
+      height: 215px;
+    }
+
+    .empty-wishlist-image {
+      width: 238px;
+      height: 233px;
+    }
+
+    .button-container {
+      width: auto !important;
+    }
+
+    h2 {
+      font-size: 16px;
+    }
+
+    h3 {
+      font-size: 16px;
+    }
+  }
+}

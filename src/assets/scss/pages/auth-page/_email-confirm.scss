@@ -1,0 +1,8 @@
+.email-confirm {
+  row-gap: 2rem;
+
+  .fa-envelope-circle-check::before {
+    font-size: 120px;
+    color: $primary;
+  }
+}

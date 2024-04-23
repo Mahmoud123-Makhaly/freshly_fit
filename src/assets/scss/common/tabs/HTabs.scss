@@ -1,0 +1,10 @@
+#myOrders {
+  .nav-link {
+    border: none;
+    color: rgba($color: $gray, $alpha: 0.5);
+    &.active {
+      color: $primary !important;
+      border-bottom: 3px solid $primary !important;
+    }
+  }
+}

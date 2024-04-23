@@ -1,0 +1,38 @@
+footer {
+  margin-bottom: 0;
+
+  a {
+    color: white !important;
+    text-decoration: none;
+  }
+
+  .title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  li {
+    font-size: 12px;
+  }
+
+  .contact-us {
+    li {
+      font-size: 12px;
+
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .footer-desc {
+    font-size: 12px;
+  }
+}
+
+@include for-tablet {
+  .paymentImg {
+    width: 54px;
+    height: 34px;
+  }
+}

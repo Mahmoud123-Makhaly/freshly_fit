@@ -1,0 +1,149 @@
+.order-return {
+  .order-return-title {
+    font-weight: 700;
+    background-color: #f7f7f7;
+    padding: 26px 24px;
+    margin: 0;
+    margin-bottom: 42px;
+  }
+  .order-return-card {
+    border: 1px solid #e1e1e1;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    .item__recap {
+      border-bottom: 1px solid #e1e1e1;
+      padding-bottom: 16px;
+      .order-return-img {
+        position: relative;
+        input[type='checkbox'] {
+          position: absolute;
+          right: 0.625rem;
+          top: 0.625rem;
+          width: 19px;
+          height: 18px;
+          accent-color: #fff;
+          color: red;
+        }
+      }
+      .order-details {
+        p {
+          padding: 0;
+        }
+        .weight {
+          padding-top: 10px;
+          margin-bottom: 16px;
+        }
+      }
+    }
+    input[type='text'] {
+      width: 100%;
+      padding: 0;
+      padding-top: 16px;
+      padding-bottom: 62px;
+      padding-inline-start: 1rem;
+      &:focus-visible {
+        outline: 0;
+      }
+      &::placeholder {
+        color: $gray;
+        font-size: 14px;
+        font-weight: 700;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .shippment-details {
+    border: 1px solid #e1e1e1;
+    .shippment-title {
+      font-size: 16px;
+      color: $info;
+      font-weight: 700;
+      background: #f7f7f7;
+      padding: 1.5rem;
+    }
+    .shippment-info {
+      padding: 1.5rem;
+    }
+  }
+  .order-summary {
+    border: 1px solid #e1e1e1;
+    .order-summary-title {
+      padding: 24px;
+      background: #f7f7f7;
+      .pill {
+        color: $info;
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .badge {
+        padding: 0;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 8px 10px;
+      }
+    }
+    .order-summary-info {
+      padding: 24px 20px 0;
+      .cart-summary {
+        .card-title {
+          margin-bottom: 16px;
+        }
+        tr {
+          td {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+  .cart-summary {
+    .card {
+      border: 0;
+    }
+    .card-title {
+      margin: 0 !important;
+    }
+  }
+  .button-maker {
+    margin-bottom: 4.5rem;
+  }
+}
+@include for-tablet {
+  .order-return {
+    .order-return-title {
+      margin-bottom: 1.5rem;
+    }
+    .order-return-card {
+      margin-bottom: 1.5rem;
+      .item__recap {
+        .order-details {
+          p {
+            padding: 0;
+          }
+          .weight {
+            padding: 0;
+            margin: 10px 0;
+          }
+          .order-price {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+[data-layout-dir='ltr'] {
+  .order-return {
+    .order-return-card {
+      .item__recap {
+        .order-return-img {
+          input[type='checkbox'] {
+            right: auto;
+            left: 0.625rem;
+            top: 0.625rem;
+          }
+        }
+      }
+    }
+  }
+}

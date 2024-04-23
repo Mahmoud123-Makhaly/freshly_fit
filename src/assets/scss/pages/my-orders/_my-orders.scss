@@ -1,0 +1,61 @@
+.myOrders-title {
+  background-color: rgba($color: #d9d9d9, $alpha: 0.2);
+  .form-control {
+    &::placeholder {
+      padding: 10px 0;
+      font-size: 14px !important;
+      color: black;
+    }
+  }
+}
+
+.complete-order-card {
+  .order-number {
+    font-size: 14px;
+    font-weight: 700;
+    color: $info;
+    margin-bottom: 16px;
+  }
+  .date {
+    padding-inline-start: 20px;
+  }
+  .evaluation {
+    padding: 0;
+    .button-maker {
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+  .deliverd-btn {
+    padding: 0;
+    padding: 9px 10px;
+    p {
+      font-size: 14px;
+    }
+  }
+  .item-recap {
+    .item-recap-info {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+    }
+  }
+  .payment-method {
+    padding: 0;
+    padding: 16px 0;
+    font-size: 14px;
+    color: #434343;
+  }
+  .product-return {
+    .button-maker {
+      font-size: 14px;
+      color: $gray;
+      padding: 0;
+      padding: 8px 16px;
+    }
+  }
+}
+[data-layout-dir='ltr'] {
+  .fa-chevron-left {
+    transform: rotate(180deg);
+  }
+}

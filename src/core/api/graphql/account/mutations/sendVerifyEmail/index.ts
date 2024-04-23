@@ -1,0 +1,24 @@
+import { globals } from "../../../../../globals";
+import graphqlClient  from "../../../client";
+import mutationDocument from "./sendVerifyEmailMutation";
+import type { Mutations, MutationsSendVerifyEmailArgs } from "../../../../graphql/types";
+
+export default async function sendVerifyEmail(userId: string): Promise<boolean | undefined> {
+  const { storeId, cultureName } = globals;
+
+  const response = await graphqlClient.mutate<
+    Required<Pick<Mutations, "sendVerifyEmail">>,
+    MutationsSendVerifyEmailArgs
+  >({
+    mutation: mutationDocument,
+    variables: {
+      command: {
+        userId,
+        storeId,
+        languageCode: cultureName,
+      },
+    },
+  });
+
+  return response?.data?.sendVerifyEmail;
+}

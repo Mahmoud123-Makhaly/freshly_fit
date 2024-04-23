@@ -1,0 +1,758 @@
+{
+  "Index": {
+    "test": "Choose Your Health ",
+    "DESCRIPTION": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+  },
+  "COMP_TopBar": {
+    "SEARCH_PLACEHOLDER": "Search",
+    "FAVORITE": "Favorite",
+    "MY_ACCOUNT": "My Account",
+    "COMP_ShoppingCartDropdown": {
+      "SHOPPING_CART": "Cart",
+      "PRODUCT": "Products",
+      "GRAM": "gram",
+      "TOTAL": "TOTAL",
+      "CURRENCY": "E.G",
+      "COMPLETE_PURCHASE": "Purchase"
+    },
+    "COMP_LoginDropdown": {
+      "LOGIN": "Login",
+      "CREATE_ACCOUNT": "Create Account"
+    },
+    "COMP_AccountDropdown": {
+      "WELCOME": "Welcome",
+      "MY_ACCOUNT": "My Account",
+      "ADDRESSES": "Addresses",
+      "ORDERS": "Orders",
+      "LOGOUT": "Logout"
+    },
+    "COMP_ShoppingItem": {
+      "DELETE": "Delete"
+    }
+  },
+  "Comp_Navbar": {
+    "LOGIN": "Login",
+    "MAIN": "Home",
+    "BAKED": "Baked",
+    "HEALTHY_BACKED": "Healthy Backed",
+    "SNACKS": "Snacks",
+    "RECIPES": "Recipes",
+    "COMMON_QUESTIONS": "Common Questions",
+    "CONTACT_US": "Contact Us"
+  },
+
+  "Comp_Summary": {
+    "TITLE": "Cart Summary",
+    "CURRENCY": "E.G",
+    "Ad_CODE": "Add Code",
+    "COMPLETE_PURCHASE": "Complete Purchase",
+    "APPLY": "Apply"
+  },
+
+  "COMP_ForgotPassword": {
+    "FORGOT_PASSWORD": "Forgot Password",
+    "EMAIL_ADDRESS": "Email Address",
+    "ENTER_EMAIL": "Enter the email you used. We will send you a link to reset your password.",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "RESET_PASSWORD": "Reset Password",
+    "OR": "Or",
+    "BACK": "back to",
+    "LOGIN": "Login",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later."
+  },
+  "COMP_ResetPassword": {
+    "NEW_PASSWORD": "Create a new password",
+    "REPEAT_NEW_PASSWORD": "Re-enter the new password",
+    "RESET_PASSWORD": "Reset Password",
+    "BACK": "back to",
+    "LOGIN": "Login",
+    "OR": "Or"
+  },
+  "COMP_LoginForm": {
+    "LOGIN": "Login",
+    "EMAIL_ADDRESS": "Email Address",
+    "PASSWORD": "Password",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "REQUIRED_PASSWORD": "Required Password",
+    "REMEMBER_ME": "Remember me?",
+    "DID_FORGOT_PASSWORD": "Did you forget password?",
+    "OR": "Or",
+    "FACEBOOK_LOGIN": "Login with Facebook",
+    "GOOGLE_LOGIN": "Login with Google",
+    "DONT_HAVE_EMAIL": "Don't have email ?",
+    "SIGNUP": "Create new Email",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "INVALID_EMAIL_OR_PASSWORD": "The email/password couple is invalid."
+  },
+  "COMP_SignUpForm": {
+    "FIRST_NAME": "First Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "ERR_FIRST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_FIRST_NAME_MAX": "First Name length should be less than {length} characters.",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "ERR_LAST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_LAST_NAME_MAX": "Last Name length should be less than {length} characters.",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "ALREADY_EMAIL_EXISTS": "We are sorry. This login email already exists. Please try a different email address to register, or login to your existing account.",
+    "TERMS_CONDITIONS": "Accept <link>terms and conditions</link>",
+    "REQUIRED_TERMS_CONDITIONS": "Please accept terms and conditions",
+    "SIGNUP": "Sign up",
+    "BTN_REGISTER_LABEL": "Sign up",
+    "OR": "Or",
+    "FACEBOOK_LOGIN": "Login with Facebook",
+    "GOOGLE_LOGIN": "Login with Google",
+    "HAVE_EMAIL": "Do you have email ?",
+    "LOGIN": "Login",
+    "REQUIRED_PASSWORD": "Required Password",
+    "PASSWORD": "Password",
+    "PASSWORD_REGX_MATCH": "Passwords must have at least one uppercase and one lowercase and 8 chars and one special character",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONFIRM_PASSWORD_MATCH": "Password not matched",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "SUCCESS_MSG": "You're all set! Welcome to our community!",
+    "SUCCESS_MSG_COUNTER": "Redirecting in {countdown} seconds..."
+  },
+  "COMP_SidebarFilter": {
+    "ALL": "All",
+    "SORT_BY": "Sort By",
+    "FEATURED": "Featured",
+    "ALPHABET_AZ": "Alphabetically, A-Z",
+    "ALPHABET_ZA": "Alphabetically, Z-A",
+    "PRICE_LH": "Price, low to high",
+    "PRICE_HL": "Price, high to low",
+    "DATE_NO": "Date, new to old",
+    "DATE_ON": "Date, old to new",
+    "CLASSIFICATION_BY": "Classification By",
+    "ALLERGENS": "Allergens",
+    "PRICE": "Price",
+    "DELETE": "Delete",
+    "PRODUCTS": "Products"
+  },
+  "COMP_ShoppingCart": {
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_CHARGE": "Delivery Fees",
+    "TOTAL": "Total",
+    "CART_SUMMARY": "Cart Summary",
+    "SAVED_PRODUCTS": "Previously saved products",
+    "ADD_TO_CART_BTN": "Add To Cart",
+    "COMPLETE_PURCHASE": "Complete Purchase",
+    "BREAD_MAIN": "Home",
+    "BREAD_SHOPPING_CART": "Shopping Cart",
+    "DELETE_ITEM_SUCCESSFUL": "Item Deleted Successfully",
+    "SAVE_ITEM_SUCCESSFUL": "Item Saved Successfully"
+  },
+  "COMP_ShippingAddress": {
+    "SHIPPING_HEADER": "Shipping Address",
+    "EDIT_ADDRESS_BTN": "Edit Address",
+    "ADD_ADDRESS_BTN": "Add Address"
+  },
+
+  "COMP_CartItem": {
+    "NEW": "New",
+    "CART_SUMMARY": "Cart Summary",
+    "RATES": "Rates",
+    "CURRENCY": "E.G",
+    "DELIVERY_TIME": "Delivery is done within one hour",
+    "SAVE_FOR_LATER": "Save For Later",
+    "DELETE": "Delete"
+  },
+  "COMP_Details_Info": {
+    "HEALTHY_PRODUCTS": "Healthy Products",
+    "NATURAL_PRODUCTS": "100% Natural Products ",
+    "NO_PRESERVATIVES": "It does not contain any preservatives at all",
+    "SHOP_NOW": "Shop Now"
+  },
+  "COMP_Best_Sellers": {
+    "HEADER": "Best Sellers",
+    "ADD_TO_CART_BTN": "Add To Cart",
+    "ADDED_TO_CART_SUCCESSFUL": "Product Added Successfully"
+  },
+  "COMP_Subscription": {
+    "JOIN_TO_US": "Join our site",
+    "OFFER": "And get a 10% discount and free next day delivery",
+    "SUBSCRIPTION_PLACEHOLDER": "Email",
+    "SUBSCRIPTION_BTN": "Subscribe Now",
+    "SUBSCRIBE_SUCCESSFUL": "Subscribe successfully"
+  },
+  "COMP_Footer": {
+    "DETAILS": "Lorem Ipsum has been, and continues to be, the standard for dummy text since the 15th century, when an anonymous printing press appeared.",
+    "CONTACT_US": "Contact us",
+    "SUPPORT_TEAM": "Support Team",
+    "TERMS_CONDITION": "Terms and Conditions",
+    "DELIVERY_POLICY": "Delivery policy",
+    "RETURN_POLICY": "Return policy",
+    "GET_APP": "Get the app",
+    "FOLLOW_US": "Follow us on",
+    "COPYRIGHT": "All rights reserved © 2023"
+  },
+  "COMP_Price_Range": {
+    "FROM": "From",
+    "TO": "To"
+  },
+  "COMP_ProductsList": {
+    "FOUND_ITEMS": "Found {count} products",
+    "LIST_COUNT_TITLE": "view",
+    "ADD_TO_CART_BTN": "Add To Cart",
+    "12_In_PAGE": "12 In Page",
+    "24_In_PAGE": "24 In Page",
+    "36_In_PAGE": "36 In Page",
+    "BREAD_MAIN": "Home",
+    "BREAD_BAKED": "Baked",
+    "NEXT_LABEL": "Next",
+    "PREV_LABEL": "Previous",
+    "EMPTY_MSG": "There are currently no products available based on your selected criteria."
+  },
+  "COMP_Invoice": {
+    "TOTAL_SUB": "Subtotal",
+    "DELIVERY_CHARGE": "Delivery Fees",
+    "TOTAL": "Total",
+    "DELIVERY_FEES": "Delivery Fees",
+    "ORDER_COMPLETED": "Order Completed",
+    "ORDER_CONFIRMATION": "Order confirmed successfully You will be sent a confirmation email or text message and a link to track your order",
+    "ORDER_NUMBER": "Order Number",
+    "MOUNT": "Mount",
+    "CURRENCY": "E.G",
+    "ORDER_DATE": "Order Date",
+    "DELIVERY_DATE": "Delivery Date",
+    "ORDER_DETAILS": "Order Details",
+    "ORDER_SUMMARY": "Order Summary",
+    "THANKS_MESSAGE": "Thank you for shopping from our store, we look forward to doing business with you again",
+    "BREAD_MAIN": "Home",
+    "BREAD_SHOPPING_CART": "Shopping Cart",
+    "BREAD_CHECKOUT": "Checkout",
+    "BREAD_ORDER_INVOICE": "Order Confirmed"
+  },
+  "Comp_Summary_Code": {
+    "CURRENCY": "E.G",
+    "Add_CODE": "Add Code",
+    "COMPLETE_PURCHASE": "Complete Purchase",
+    "APPLY": "Apply"
+  },
+
+  "Comp_Order_Recap": {
+    "DELIVERY_TIME": "Delivery is done within"
+  },
+  "COMP_Checkout": {
+    "EDIT": "Edit",
+    "ADD_NEW_ADDRESS": "Add New Addresses",
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "DISCOUNT_COUPON": "Discount Coupon",
+    "TOTAL": "Total",
+    "AGREE": "Agree",
+    "TERMS_CONDITIONS": "Accept terms and conditions",
+    "CART_SUMMARY": "Cart Summary",
+    "SHIPPING_ADDRESSES": "Shipping Addresses",
+    "REVIEW_ORDER": "Review The Order",
+    "COMPLETE_PURCHASE": "Complete Purchase",
+    "CURRENCY": "E.G",
+    "APPLIED": "Applied",
+    "DISCOUNT": "Discount",
+    "SUCCESSFULLY": "Successfully",
+    "SAVED": "Saved",
+    "REMOVE_COUPON": "Remove Coupon",
+    "Add_CODE": "Add Code +",
+    "APPLY": "Apply",
+    "CANCEL": "Cancel",
+    "BREAD_MAIN": "Home",
+    "BREAD_CHECKOUT": "Checkout",
+    "BREAD_SHOPPING_CART": "Shopping Cart",
+    "PAYMENT_CASH": "Cash Payment",
+    "ADD_ADDRESS_HEADER": "Add Address",
+    "ADD_ADDRESS_SUCCESSFUL": "Address Added Successfully",
+    "ADDRESS_SELECTED": "Address Selected"
+  },
+  "Comp_Edit_Addresses": {
+    "SHIPPING_ADDRESS": "Shipping Address",
+    "ADD_NEW_ADDRESSES": "Add New Addresses",
+    "CANCEL": "Cancel"
+  },
+  "Comp_ShippingDetails": {
+    "ORDER_NUMBER": "Order Number",
+    "MOUNT": "Mount",
+    "ORDER_DATE": "Order Date",
+    "DELIVERY_DATE": "Delivery Date",
+    "CURRENCY": "E.G"
+  },
+
+  "Comp_OrderDetails": {
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "TOTAL": "Total",
+    "ORDER_DETAILS": "Order Details",
+    "SHIPPING_DETAILS": "Shipping Details ",
+    "BILL": "Bill",
+    "CASH": "Cash",
+    "CART_SUMMARY": "Cart Summary",
+    "CANCEL_ORDER": "Cancel Order",
+    "PREPARING": "Preparing",
+    "CANCEL_MSG": "You cannot cancel the order after the order has been prepared",
+    "DELIVERED_SUCCESS": "Delivered successfully",
+    "ORDER_NUMBER": "Order Number",
+    "ON_THE_ROAD": "On The Road",
+    "DELIVERED": "Delivered",
+    "OUT_FOR_DELIVERY": "Out For Delivery",
+    "ORDER_RETURN": " Order Return  ",
+    "CANCEL_INQUIRY": "Are you sure you want to cancel the order?",
+    "YES": "Yes",
+    "NO": "No"
+  },
+  "Comp_Progress_Bar": {
+    "PREPARING": "Preparing",
+    "ON_THE_ROAD": "On The Road",
+    "DELIVERED": "Delivered",
+    "OUT_FOR_DELIVERY": "Out For Delivery",
+    "SHIPPED": "Shipped"
+  },
+  "Comp_ProgressBar": {
+    "PREPARING": "Preparing",
+    "CENCEL_ORDER": "You cannot cancel the order after preparing the order",
+    "PREPARING_PROGRESS": "Preparing",
+    "ON_WAY": "On The Way",
+    "CHARGED": "Charged",
+    "OUT_FOR_DELIVERY": "Out For Delivery",
+    "Delivered": "Delivered"
+  },
+  "Comp_CurrentOrder": {
+    "MY_ORDERS": "My Orderds",
+    "PRODUCT_SEARCH": "Search by product or category name",
+    "CURRENT_ORDERS": "Current Orders",
+    "ORDERS_COMPLTED": "Order Completed",
+    "RETURNS": "Returns",
+    "CANCELED_ORDERS": "Canceled Orders"
+  },
+  "Comp_CurrentOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "DETAILS": "Details",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price"
+  },
+  "COMP_ProductDetails": {
+    "Header": {
+      "BREAD_MAIN": "Home"
+    },
+    "RelatedProducts": {
+      "ADD_TO_CART_BTN": "Add To Cart",
+      "SIMILAR_PRODUCTS": "Similar products"
+    },
+    "Rating": {
+      "RATING": "Rating",
+      "SHOW_MORE_BTN": "Show More",
+      "SEND": "Send",
+      "REVIEW": "Review(s)",
+      "REVIEW_BTN": "Review"
+    },
+    "Details": {
+      "DETAILS": "Details",
+      "DELIVERY_TIME": "Delivery is done within one hour",
+      "ADD_TO_CART_BTN": "Add To Cart",
+      "SHARE": "Share",
+      "ADD_TO_CART_MESSAGE_SUCCESSFUL": "Item was added successfully",
+      "ADD_TO_CART_ERROR": "An error occurred while adding the item"
+    }
+  },
+  "Comp_CompletedOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "DELIVERED": "Delivered",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price",
+    "EVALUATE": "Evaluate",
+    "ORDER_RETURN": " Order Return  "
+  },
+
+  "Comp_CanceledOrderCard": {
+    "ORDER_NUMBER": "Order Number",
+    "CANCELED": "Canceled",
+    "PAYMENT_METHOD": "Payment Method",
+    "PRICE": "Price",
+    "EVALUATE": "Evaluate",
+    "ORDER_RETURN": " Order Return  "
+  },
+  "COMP_AddAddresses": {
+    "FIRST_NAME": "First Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "ERR_FIRST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_FIRST_NAME_MAX": "First Name length should be less than {length} characters.",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "ERR_LAST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_LAST_NAME_MAX": "Last Name length should be less than {length} characters.",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "PHONE_NUMBER": "Phone Number",
+    "REQUIRED_PHONE_NUMBER": "Phone Number Required",
+    "INVALID_PHONE_NUMBER": "Phone number is not valid",
+    "CITY": "City",
+    "REQUIRED_CITY": "Please select your city.",
+    "LINE1": "Address Details",
+    "REQUIRED_ADDRESS": "Please enter your street name or any landmarks.",
+    "BUILDING": "Building",
+    "REQUIRED_BUILDING_NUMBER": "Please enter your building number",
+    "FLOOR": "Floor",
+    "REQUIRED_FLOOR_NUMBER": "Please enter your floor number",
+    "FLAT": "Flat",
+    "REQUIRED_FLAT_NUMBER": "Please enter your apartment number",
+    "SAVE_ADDRESSES": "Save Addresses",
+    "CANCEL": "Cancel",
+    "DEFAULT_SELECT": "Select ...",
+    "DISTRICT": "District",
+    "REQUIRED_DISTRICT": "Please select your district",
+    "HOME": "Home",
+    "WORK": "Work",
+    "OTHER": "Other",
+    "REQUIRED_ADDRESS_TYPE": "Please select the address type."
+  },
+
+  "Comp_Recipe": {
+    "TITLE": "Infused oat flake sauce",
+    "DESCRIPTION": "The sauce you eat with saturated oat flakes is healthy and delicious",
+    "CALORIES": "50 Calories",
+    "TIME": "Preparation time: 5 minutes",
+    "SEE_REST_RECIPES": "See the rest of the recipes"
+  },
+  "COMP_HomePage": {
+    "BETTER_HEALTH": "Better Health",
+    "PRODUCTS": "Products",
+    "NATURAL": "Natural",
+    "TITLE": "Infused oat flake sauce",
+    "DESCRIPTION": "The sauce you eat with saturated oat flakes is healthy and delicious",
+    "CALORIES": "50 Calories",
+    "TIME": "Preparation time: 5 minutes",
+    "SEE_REST_RECIPES": "See the rest of the recipes",
+    "SEE_MORE": "See more"
+  },
+  "Comp_Favourite": {
+    "ADD_TO_FAVOURITE_MESSEGE": "The item was successfully added to your favorites",
+    "REMOVE_TO_FAVOURITE_MESSEGE": "The item was successfully Removed to your favorites"
+  },
+  "Comp_VCardMaker": {
+    "ADD_TO_FAVOURITE_MESSEGE": "The item was successfully added to your favorites",
+    "REMOVE_TO_FAVOURITE_MESSEGE": "The item was successfully Removed to your favorites"
+  },
+  "COMP_HealthyProducts": {
+    "OATS_BREAD": "Oat bread",
+    "TORTILLA": "Tortilla",
+    "SOFT_TORTILLA": "Soft tortillas",
+    "OATS_FINO": "Oat fino",
+    "BARLEY_BREAD": "Barley bread",
+    "LARGE_LEBANESE_BREAD": "Large lebanese bread"
+  },
+  "COMP_PROFILE": {
+    "ACCOUNT": "My Account",
+    "FAVORITE": "Favorite",
+    "ADDRESS": "Address",
+    "ORDERS": "Orders",
+    "CARDS": "Cards",
+    "BREAD_MAIN": "Home",
+    "BREAD_PROFILE": "My Profile"
+  },
+  "COMP_Auth_Header": {
+    "LOGIN": "Login",
+    "SIGNUP": "Sign up"
+  },
+  "COMP_AddressForm": {
+    "HOME": "Home",
+    "WORK": "Work",
+    "OTHER": "Other",
+    "CANCEL": "Cancel"
+  },
+  "COMP_WishList": {
+    "12_In_PAGE": "12 In Page",
+    "24_In_PAGE": "24 In Page",
+    "36_In_PAGE": "36 In Page",
+    "LIST_COUNT_TITLE": "view",
+    "ADD_TO_CART_BTN": "Add To Cart",
+    "NEXT_LABEL": "Next",
+    "PREV_LABEL": "Previous"
+  },
+  "COMP_FAQS": {
+    "HEADER": "Common questions"
+  },
+  "Comp_Order_Details": {
+    "ORDER_DETAILS": "Order Details"
+  },
+  "COMP_Contact_Us": {
+    "CONTACT_US": "Contact Us",
+    "EMAIL": "Email",
+    "MOBILE_NUMBER": "Mobile Number",
+    "ADDRESS": "Address",
+    "FOLLOW_US_ON": "Follow Us On",
+    "SUBJECT": "Subject",
+    "MESSAGE": "Message",
+    "REQUIRED_SUBJECT": "Subject Is Required    ",
+    "SEND_MESSAGE": "Send",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "REQUIRED_PHONE_NUMBER": "Phone Number Is Required",
+    "EMAIL_ADDRESS": "Email Address",
+    "PHONE_NUMBER": "Phone Number",
+    "REQUIRED_EMAIL": "Required Email"
+  },
+  "COMP_Contact_Form": {
+    "CONTACT_US": "Contact Us"
+  },
+  "COMP_Modal_Content": {
+    "CONTINUE_SHOPPING": "Continue Shopping",
+    "THANKS_MESSAGE": "Sent! Thank you for contacting us!",
+    "MODAL_DESC": "We appreciate you contacting us. We try to respond as soon as possible, and one of our representatives will respond to you shortly.”"
+  },
+  "Comp_Recipe_Menu": {
+    "RECIPE": "Recipes",
+    "SAUSE_TITLE": "Infused oat flake sauce",
+    "SAUSE_DESCRIPTION": "The sauce you eat with saturated oat flakes is healthy and delicious",
+    "CALORIES": "50 Calories",
+    "TIME": "Preparation time: 5 minutes",
+    "DETAILS": "Details",
+    "BREAD_TITLE": "Oat bread slices sauce",
+    "BREAD_DESCRIPTION": "The sauce you eat with slices of oat bread is healthy and delicious",
+    "STUFFING_TITLE": "Stuffing Syrian saj bread",
+    "STUFFING_DESCRIPTION": "The filling that you eat with Syrian saj bread is healthy and delicious",
+    "WAY_DESCRIPTION": "Lorem Ipsum is a temporary text used in design and publishing to show the form of a document or font without relying on moral content. Lorem Ipsum may be used as alternative text before the final text required for the design. It is also used to hide text in a process called drowning, which allows designers to look at the look of a web page or publication, without the meaning of the text affecting the design. It is used to show prototypes of programs, applications, websites, etc. without leaving a significant trace",
+    "LOREM_IPSUM": "Lorem Ipsum"
+  },
+  "Comp_Recipe_Modal": {
+    "INGREDIENTS": "Ingredients",
+    "FOLLOE_THE_REST_OF_RECIPE": "Follow The Rest Of Recipe",
+    "THE_WAY": "The Way"
+  },
+  "COMP_Profile_Address": {
+    "ADD_NEW_ADDRESS": "Add New Addresses",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "SUCCESS_UPDATE_MSG": "Your address has been updated successfully.",
+    "SUCCESS_ADD_MSG": "Your address has been added successfully.",
+    "EMPTY_MSG": "There are no addresses right now."
+  },
+  "COMP_Address_Template": {
+    "MARK_BASE_ADDRESS": "Mark as base address",
+    "EDIT": "Edit",
+    "DELETE": "Delete",
+    "HOME": "Home",
+    "WORK": "Work",
+    "OTHER": "Other",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later."
+  },
+  "Comp_Rating_Card": {
+    "PRODUCT_EVALUATE": "Order Evaluate",
+    "DELIVERY_EVALUATE": " Delivery  Evaluate"
+  },
+  "COMP_Product_Evaluation": {
+    "WHRITE_PRODUCT_EVALUATION": "Write Product Evaluation",
+    "EXEPERIENCE_INQUIRY": "How was your experience with the product?",
+    "SEND": "Send",
+    "REQUIRED_EVALUATION": "Evaluation Is Required"
+  },
+  "COMP_Delivery_Evaluation": {
+    "WHRITE_DELIVERY_EVALUATION": "   Write Delivery Evaluation  ",
+    "EXEPERIENCE_INQUIRY": "       How was your experience with the Delivery?  ",
+    "SEND": "Send",
+    "REQUIRED_EVALUATION": "Evaluation Is Required"
+  },
+
+  "Comp_Rating_Feedback": {
+    "EVALUATION_SEND_SUCCESSFULLY": "Evaluation has been sent successfully",
+    "THANKS_MESSAGE": "Thank you for the rating. The review has been sent successfully",
+    "CONTINUE_SHOPPING": "Continue Shopping"
+  },
+  "Comp_My_Account": {
+    "PERSONAL_INFORMATION": "Personal Information",
+    "FIRST_NAME": "First Name",
+    "REQUIRED_FIRST_NAME": "First Name is required",
+    "ERR_FIRST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_FIRST_NAME_MAX": "First Name length should be less than {length} characters.",
+    "LAST_NAME": "Last Name",
+    "REQUIRED_LAST_NAME": "Last Name is required",
+    "ERR_LAST_NAME_MIN": "You must enter at least {length} characters.",
+    "ERR_LAST_NAME_MAX": "Last Name length should be less than {length} characters.",
+    "EMAIL_ADDRESS": "Email Address",
+    "REQUIRED_EMAIL": "Required Email",
+    "INVALID_EMAIL": "Invalid Email Address",
+    "ALREADY_EMAIL_EXISTS": "We are sorry. This email already exists. Please try a different email address to register, or login to your existing account.",
+    "PHONE_NUMBER": "Phone Number",
+    "REQUIRED_PHONE_NUMBER": "Phone Number Required",
+    "INVALID_PHONE_NUMBER": "Phone number is not valid",
+    "DAY": "Day",
+    "MONTH": "Month",
+    "YEAR": "Year",
+    "INVALID_BIRTH_DATE": "Invalid birthdate. Make sure the day, month, and year are within valid ranges.",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "CHANGE_PASSWORD": "Change Password",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "SUCCESS_MSG": "Your personal information has been updated successfully."
+  },
+  "Comp_Change_Password": {
+    "CHANGE_PASSWORD": "Change Password",
+    "CURRENT_PASSWORD": "Current Password",
+    "REQUIRED_CURRENT_PASSWORD": "Current Password Is Required",
+    "CURRENT_PASSWORD_INVALID": "Sorry, but current password is not valid",
+    "NEW_PASSWORD": "New Password",
+    "REQUIRED_NEW_PASSWORD": "New Password Is Required",
+    "NEW_PASSWORD_REGX_MATCH": "Passwords must have at least one uppercase and one lowercase and 8 chars and one special character",
+    "REPEAT_NEW_PASSWORD": "Re-enter the new password",
+    "SAME_PASSWORD_ERR": "New password is the same as old password. Please choose another one.",
+    "REQUIRED_REPEAT_NEW_PASSWORD": "Please Reat New Password",
+    "REPEAT_NEW_PASSWORD_MATCH": "Password not matched",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "SUCCESS_MSG": "Password updated successfully.",
+    "SUCCESS_MSG_COUNTER": "Logout in {countdown} seconds..."
+  },
+  "COMP_Remove_Address_Modal": {
+    "REMOVE_ADDRESS": "Remove Address",
+    "DO_REMOVE_ADDRESS": "Are you sure you want to remove the address",
+    "CONFIRM_REMOVE": "Remove",
+    "CANCEL": "Cancel",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later."
+  },
+  "Comp_Item_Recap": {
+    "QUANTITY": "Quantity"
+  },
+  "Comp_Order_Return": {
+    "ORDRE_RETURN": "Order Return",
+    "SHIPPING_DETAILS": "Shipping Details ",
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "TOTAL": "TOTAL",
+    "BILL": "Bill",
+    "CASH": "Cash",
+    "CART_SUMMARY": "Cart Summary",
+    "RETURN_CONFIRMATION": "Confirm return",
+    "Comp_Order_Return_Card": {
+      "QUANTITY": "Quantity",
+      "RETURN_REASON": "What Is The Reason Of Return"
+    }
+  },
+  "Comp_Recovery_Details": {
+    "RECOVEY_DETAILS": "Recovery Details",
+    "SELECT_DAY": "Select Day",
+    "SUNDAY": "Sunday",
+    "MONDAY": "Monday",
+    "TUESDAY": "Tuesday",
+    "SELECT_TIMING": "Choose the timing",
+    "EVENING": "Evening",
+    "MORNING": "Morning",
+    "SHIPPING_DETAILS": "Shipping Details ",
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "TOTAL": "Total",
+    "BILL": "Bill",
+    "CART_SUMMARY": "Cart Summary",
+    "CASH": "Cash",
+    "RECOVERY_CONFIRMATION": "Recovery confirmation"
+  },
+  "COMP_EmptyCart": {
+    "CART-IS-EMPTY": "Shopping cart is empty",
+    "EMPTY_TILL_NOW": "You don't have anything in your cart yet.",
+    "SHOP_NOW": "Start shopping now"
+  },
+  "COMP_EmptyWishlist": {
+    "WISHLIST-IS-EMPTY": "Wish list is empty",
+    "EMPTY_TILL_NOW": "You don't have anything in your Wish list yet.",
+    "SHOP_NOW": "Start shopping now"
+  },
+  "COMP_Custom404": {
+    "NOT_FOUND": "Oops! The page you're looking for can't be found."
+  },
+  "COMP_Email_Confirmation": {
+    "EMAIL_SENT": "Email has been sent",
+    "CONFIRM_EMAIL": "Please check your email inbox for the password recovery link.",
+    "EMAIL_NOT_SENT": "Didn't find your email?",
+    "RESEND": "Resend",
+    "OR": "Or",
+    "BACK_TO": "Back to",
+    "LOGIN": "Login",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "RESEND_SUCCESS_MSG": "Your password reset request has been received successfully. Please check your email for further instructions."
+  },
+  "Comp_View_Returns": {
+    "VIEW_RETURNS": "View Returns",
+    "SHIPPMENT_DELIVERY_ADDRESS": "Shipment delivery address",
+    "SHIPPMENT_DELIVERY_TIME": "Shipment delivery time",
+    "MONDAY": "Monday",
+    "EVENING": "Evening",
+    "BILL": "Bill",
+    "CASH": "Cash",
+    "CART_SUMMARY": "Cart Summary",
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "TOTAL": "TOTAL",
+    "RETURN_CONFIRMATION": "Confirm return"
+  },
+  "Comp_View_Returns_Card": {
+    "QUANTITY": "Quantity",
+    "RETURN_REASON": "What Is The Reason Of Return"
+  },
+  "Comp_Order_Return_invoice": {
+    "RETURN_SUCCESSFULLY": "Your return request has been completed successfully",
+    "RETURN_MESSAGE": "Your return has been requested successfully. You will be sent a confirmation email or text message and a link to track your order",
+    "ORDER_NUMBER": "Order Number",
+    "CANCEL_ORDER": "Cancel Order",
+    "MONDAY": "Monday",
+    "EVENING": "Evening",
+    "SHIPPMENT_DELIVERY_ADDRESS": "Shipment delivery address",
+    "SHIPPMENT_DELIVERY_TIME": "Shipment delivery time",
+    "SUBTOTAL": "Subtotal",
+    "DELIVERY_FEES": "Delivery Fees",
+    "TOTAL": "TOTAL",
+    "BILL": "Bill",
+    "CASH": "Cash",
+    "CART_SUMMARY": "Cart Summary"
+  },
+  "Comp_ReturnedCard": {
+    "ORDER_NUMBER": "Order Number",
+    "DETAILS": "Details",
+    "PAYMENT_METHOD": "Payment Method"
+  },
+  "COMP_BreadCrumb": { "BREAD_MAIN": "Home" },
+
+  "COMP_MobileFilter": {
+    "FILTRATION": "Filtration",
+    "FILTER": "Filter By",
+    "SORT": "Sort By",
+    "DELETE_ALL": "Delete All",
+    "CATEGORIES": "categories",
+    "DELETE": "Delete",
+    "FEATURED": "Featured",
+    "ALPHABET_AZ": "Alphabetically, A-Z",
+    "ALPHABET_ZA": "Alphabetically, Z-A",
+    "PRICE_LH": "Price, low to high",
+    "PRICE_HL": "Price, high to low",
+    "DATE_NO": "Date, new to old",
+    "DATE_ON": "Date, old to new",
+    "PRICE": "Price"
+  },
+  "COMP_SOCIAL_LOGIN": {
+    "OR": "Or",
+    "FACEBOOK_LOGIN": "Login with Facebook",
+    "GOOGLE_LOGIN": "Login with Google"
+  },
+  "COMP_FavoriteForm": {
+    "ADD_TO_FAVORITE_MESSAGE": "The item was successfully added to your favorites",
+    "ADD_TO_FAVORITE_ERROR": "An error occurred while adding the item",
+    "REMOVE_FROM_FAVORITE_MESSAGE": "The item was successfully Removed to your favorites",
+    "REMOVE_FROM_FAVORITE_ERROR": "An error occurred while removing the item"
+  },
+  "COMP_ProductReview": {
+    "REVIEW_REQUIRED_ERR": "Please enter your review comment for the product.",
+    "RATE_REQUIRED_ERR": "Please rate the product.",
+    "GENERIC_ERR_MSG": "Oops! Something went wrong. Please try again later.",
+    "DUPLICATE_REVIEW_ERR": "You have already reviewed this product."
+  },
+  "COMP_ShowMore": {
+    "SHOW_MORE_BTN": "Show More"
+  },
+  "PASSWORD_STATUS": {
+    "LENGTH_ERR": "Password should be at least 8 characters long.",
+    "UPPERCASE_CHAR_ERR": "Password should include at least one uppercase letter.",
+    "LOWERCASE_CHAR_ERR": "Password should include at least one lowercase letter.",
+    "DIGIT_ERR": "Password should include at least one number.",
+    "SPECIAL_CHAR_ERR": "Password should include at least one special character.",
+    "REQUIRED_PASSWORD": "Required Password"
+  }
+}

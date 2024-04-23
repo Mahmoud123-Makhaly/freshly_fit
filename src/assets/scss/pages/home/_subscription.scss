@@ -1,0 +1,64 @@
+.subscription {
+  background-color: rgba(#a5e87e, 0.1);
+
+  .subscription-info {
+    p {
+      color: #292e35;
+      font-weight: 700;
+      line-height: 28px;
+      padding: 0;
+    }
+  }
+
+  .subscription-form {
+    input {
+      font-size: 12px;
+      flex-grow: 1;
+      outline: 0;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      &::placeholder {
+        font-size: 12px;
+        color: $gray;
+        padding-bottom: 5px;
+      }
+    }
+
+    button {
+      padding: 10px 38.5px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      font-weight: 700;
+    }
+  }
+}
+
+[data-layout-dir='ltr'] {
+  .subscription-form {
+    input {
+      border-radius: 5px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    button {
+      border-radius: 5px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}
+
+@include for-phone {
+  .subscription {
+    .subscription-form {
+      button {
+        padding: 10px 16.5px;
+      }
+    }
+  }
+}

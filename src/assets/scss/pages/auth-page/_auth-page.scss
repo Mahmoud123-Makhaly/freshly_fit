@@ -1,0 +1,124 @@
+.auth-page {
+  min-height: calc(100vh - 64px);
+
+  .container {
+    &:first-child {
+      min-height: calc(100vh - 64px);
+
+      .row {
+        &:first-child {
+          min-height: calc(100vh - 64px);
+          align-items: center;
+          padding: 2rem 0rem;
+        }
+      }
+    }
+  }
+
+
+
+  background-image: url('../../../images/auth/homemade-bread.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+
+    .form-title {
+      font-weight: 700;
+    }
+
+    .row {
+      min-height: auto !important;
+      padding: 0 !important;
+    }
+
+    padding: 7.5rem 6.875rem;
+
+    input {
+      height: 44px;
+    }
+
+    button {
+      padding: 0;
+      height: 44px;
+    }
+
+
+  }
+}
+
+.other-options {
+  position: relative;
+  width: 100%;
+
+  &::after {
+    content: '';
+    background-color: $border;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    right: 0;
+  }
+
+  span {
+    display: inline-block;
+    position: relative;
+    right: 45%;
+    left: 43%;
+    z-index: 100;
+    background-color: white;
+    padding: 0 1rem;
+  }
+}
+
+@include for-tv {
+  .auth-page {
+    .auth-form {
+      padding: 7.5rem 2rem;
+    }
+  }
+}
+
+@include for-tablet {
+  .auth-page {
+    background-image: none;
+
+    .auth-form {
+      padding: 5rem 1rem;
+      margin: 0;
+    }
+  }
+}
+
+@include for-phone {
+  .auth-page {
+    .container {
+      padding: 0;
+    }
+  }
+}
+
+[data-layout-dir='rtl'] {
+  .auth-page {
+    .auth-form {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+[data-layout-dir='ltr'] {
+  .auth-page {
+    background-image: url('../../../images/auth/homemade-bread-en.png') !important;
+
+    .auth-form {
+      margin-right: 0 !important;
+    }
+  }
+}

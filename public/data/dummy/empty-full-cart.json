@@ -1,0 +1,883 @@
+{
+  "data": {
+    "cart": {
+      "id": "a1f444ff-171a-40e8-8f60-d9e773f17183",
+      "name": "default",
+      "status": null,
+      "storeId": "alkhbaz",
+      "channelId": null,
+      "hasPhysicalProducts": false,
+      "isAnonymous": false,
+      "customerId": "7040b963-6fa9-4269-90d4-9a830cdc9a11",
+      "customerName": "Fego Farag",
+      "organizationId": null,
+      "isRecuring": null,
+      "comment": null,
+      "purchaseOrderNumber": null,
+      "volumetricWeight": null,
+      "weightUnit": null,
+      "weight": null,
+      "total": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "subTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "subTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "extendedPriceTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "extendedPriceTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "currency": {
+        "code": "EGP",
+        "symbol": "ج.م.‏",
+        "exchangeRate": 1,
+        "customFormatting": null
+      },
+      "taxTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "taxPercentRate": 0,
+      "taxType": null,
+      "taxDetails": [],
+      "fee": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "shippingPrice": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "shippingPriceWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "shippingTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "shippingTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "shipments": [],
+      "availableShippingMethods": [
+        {
+          "id": "FixedRate_Ground",
+          "code": "FixedRate",
+          "logoUrl": null,
+          "name": "Fixed shipping rate",
+          "description": null,
+          "optionName": "Ground",
+          "optionDescription": null,
+          "priority": 0,
+          "currency": {
+            "code": "EGP",
+            "symbol": "ج.م.‏",
+            "exchangeRate": 1,
+            "customFormatting": null
+          },
+          "price": {
+            "amount": 15,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏15.00",
+            "formattedAmountWithoutCurrency": "15.00",
+            "formattedAmountWithoutPoint": "ج.م.‏15",
+            "formattedAmountWithoutPointAndCurrency": "15",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "priceWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "total": {
+            "amount": 15,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏15.00",
+            "formattedAmountWithoutCurrency": "15.00",
+            "formattedAmountWithoutPoint": "ج.م.‏15",
+            "formattedAmountWithoutPointAndCurrency": "15",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "totalWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmount": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmountWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          }
+        },
+        {
+          "id": "FixedRate_Air",
+          "code": "FixedRate",
+          "logoUrl": null,
+          "name": "Fixed shipping rate",
+          "description": null,
+          "optionName": "Air",
+          "optionDescription": null,
+          "priority": 0,
+          "currency": {
+            "code": "EGP",
+            "symbol": "ج.م.‏",
+            "exchangeRate": 1,
+            "customFormatting": null
+          },
+          "price": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "priceWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "total": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "totalWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmount": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmountWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          }
+        },
+        {
+          "id": "ZoneRate_",
+          "code": "ZoneRate",
+          "logoUrl": null,
+          "name": "Zone Shipping Rate",
+          "description": null,
+          "optionName": null,
+          "optionDescription": null,
+          "priority": 0,
+          "currency": {
+            "code": "EGP",
+            "symbol": "ج.م.‏",
+            "exchangeRate": 1,
+            "customFormatting": null
+          },
+          "price": {
+            "amount": 30,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏30.00",
+            "formattedAmountWithoutCurrency": "30.00",
+            "formattedAmountWithoutPoint": "ج.م.‏30",
+            "formattedAmountWithoutPointAndCurrency": "30",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "priceWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "total": {
+            "amount": 30,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏30.00",
+            "formattedAmountWithoutCurrency": "30.00",
+            "formattedAmountWithoutPoint": "ج.م.‏30",
+            "formattedAmountWithoutPointAndCurrency": "30",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "totalWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmount": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmountWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          }
+        }
+      ],
+      "paymentPrice": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "paymentPriceWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "paymentTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "paymentTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "payments": [],
+      "availablePaymentMethods": [
+        {
+          "code": "DefaultManualPaymentMethod",
+          "name": "Test payment method",
+          "logoUrl": null,
+          "paymentMethodType": "Unknown",
+          "paymentMethodGroupType": "Manual",
+          "priority": 0,
+          "isAvailableForPartial": false,
+          "taxPercentRate": 0,
+          "taxType": null,
+          "description": "Cash on Delivery",
+          "currency": {
+            "code": "EGP",
+            "symbol": "ج.م.‏",
+            "exchangeRate": 1,
+            "customFormatting": null
+          },
+          "price": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "priceWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "total": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "totalWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmount": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmountWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "taxTotal": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "taxDetails": null
+        },
+        {
+          "code": "QnbMethod",
+          "name": "QnbMethod",
+          "logoUrl": null,
+          "paymentMethodType": "PreparedForm",
+          "paymentMethodGroupType": "BankCard",
+          "priority": 0,
+          "isAvailableForPartial": false,
+          "taxPercentRate": 0,
+          "taxType": null,
+          "description": "الدفع بالبطاقة",
+          "currency": {
+            "code": "EGP",
+            "symbol": "ج.م.‏",
+            "exchangeRate": 1,
+            "customFormatting": null
+          },
+          "price": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "priceWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "total": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "totalWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmount": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "discountAmountWithTax": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "taxTotal": {
+            "amount": 0,
+            "decimalDigits": 2,
+            "formattedAmount": "ج.م.‏0.00",
+            "formattedAmountWithoutCurrency": "0.00",
+            "formattedAmountWithoutPoint": "ج.م.‏0",
+            "formattedAmountWithoutPointAndCurrency": "0",
+            "currency": {
+              "code": "EGP",
+              "symbol": "ج.م.‏",
+              "exchangeRate": 1,
+              "customFormatting": null
+            }
+          },
+          "taxDetails": null
+        }
+      ],
+      "handlingTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "handlingTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "discountTotal": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "discountTotalWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "subTotalDiscount": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "subTotalDiscountWithTax": {
+        "amount": 0,
+        "decimalDigits": 2,
+        "formattedAmount": "ج.م.‏0.00",
+        "formattedAmountWithoutCurrency": "0.00",
+        "formattedAmountWithoutPoint": "ج.م.‏0",
+        "formattedAmountWithoutPointAndCurrency": "0",
+        "currency": {
+          "code": "EGP",
+          "symbol": "ج.م.‏",
+          "exchangeRate": 1,
+          "customFormatting": null
+        }
+      },
+      "discounts": null,
+      "addresses": [],
+      "gifts": [],
+      "availableGifts": [],
+      "items": [],
+      "itemsCount": 0,
+      "itemsQuantity": 0,
+      "coupons": [],
+      "dynamicProperties": [
+        {
+          "name": "orderSource",
+          "valueType": "ShortText",
+          "value": null
+        }
+      ],
+      "type": "cart",
+      "warnings": [],
+      "isValid": true
+    }
+  }
+}
